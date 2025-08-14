@@ -235,7 +235,7 @@
                                     <p class="mb-2">
                                         {{ __('You reached the Pterodactyl perPage limit. Please make sure to set it higher than your server count.') }}<br>
                                         {{ __('You can do that in settings.') }}<br><br>
-                                        {{ __('Note') }}: {{ __('If this error persists even after changing the limit, it might mean a server was deleted on Pterodactyl, but not on CtrlPanel. Try clicking the button below.') }}
+                                        {{ __('Note') }}: {{ __('If this error persists even after changing the limit, it might mean a server was deleted on Pterodactyl, but not on SkyNest. Try clicking the button below.') }}
                                     </p>
                                     <a href="{{route('admin.servers.sync')}}" class="btn btn-primary btn-md"><i
                                         class="mr-2 fas fa-sync"></i>{{__('Sync servers')}}</a>

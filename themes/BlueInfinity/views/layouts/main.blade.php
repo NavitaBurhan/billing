@@ -168,7 +168,7 @@
            src="{{ \Illuminate\Support\Facades\Storage::disk('public')->exists('icon.png') ? asset('storage/icon.png') : asset('images/skynest_logo.png') }}"
            alt="{{ config('app.name', 'Laravel') }} Logo" class="brand-image img-circle"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">{{ config('app.name', 'CtrlPanel.gg') }}</span>
+      <span class="brand-text font-weight-light">{{ app_brand() }}</span>
     </a>
 
     <!-- Sidebar -->

@@ -55,7 +55,7 @@ trait Invoiceable
         $notes = implode("<br>", $notes);
 
         $invoice = DailyInvoice::make()
-            ->template('ctrlpanel')
+            ->template('skynest')
             ->name(__("Invoice"))
             ->buyer($customer)
             ->seller($seller)

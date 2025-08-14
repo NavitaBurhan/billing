@@ -1,8 +1,8 @@
 # 🐳 Standalone Docker
 
-The CtrlPanel standalone Docker enables users to run CtrlPanel easily with just a few clicks.
+The SkyNest standalone Docker enables users to run SkyNest easily with just a few clicks.
 
-To run CtrlPanel standalone Docker, you need to have Docker installed on your machine. Some server operating systems like Unraid, TrueNAS, etc.. already have Docker installed, making it even easier to run CtrlPanel.
+To run SkyNest standalone Docker, you need to have Docker installed on your machine. Some server operating systems like Unraid, TrueNAS, etc.. already have Docker installed, making it even easier to run SkyNest.
 If you're using a different operating system, you can follow the official Docker installation guide [here](https://docs.docker.com/get-docker/).
 
 Once you have Docker installed, you can run CtrlPanel standalone Docker by executing the following command:
@@ -23,7 +23,7 @@ Recommended way via Docker Compose:
 
 The control panel will be available at http://localhost/install and will be a completely fresh installation.
 
-Note that while the container contains the full CtrlPanel installation, you will still need to perform the basic setup. You can find instructions for this [here](https://ctrlpanel.gg/docs/Installation/getting-started#basic-setup).
+Note that while the container contains the full SkyNest installation, you will still need to perform the basic setup. You can find instructions for this [here](https://ctrlpanel.gg/docs/Installation/getting-started#basic-setup).
 
 ## 🏗️ Migrating from a previous bare metal installation
 

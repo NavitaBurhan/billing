@@ -1,12 +1,14 @@
 <div align="center">
-    <img src="https://ctrlpanel.gg/img/controlpanel.png" width="128" alt="" />
+    <img src="https://ctrlpanel.gg/img/controlpanel.png" width="128" alt="SkyNest Logo" />
 </div>
 
-# CtrlPanel-gg
+# SkyNest
 
-CtrlPanel offers an easy-to-use and free billing solution for all starting and experienced hosting providers that seamlessly integrates with the Pterodactyl panel. It facilitates account creation, server ordering, and management, while offering addons, multiple payment methods, and customizable themes for a comprehensive solution.
+Fork / rebrand of [CtrlPanel](https://github.com/Ctrlpanel-gg/panel).
 
-> ⚠️ **Important Notice:** CtrlPanel is **only compatible with Pterodactyl**. It does not support Pelican or any other hosting panels.
+SkyNest offers an easy-to-use and free billing solution for all starting and experienced hosting providers that seamlessly integrates with the Pterodactyl panel. It facilitates account creation, server ordering, and management, while offering addons, multiple payment methods, and customizable themes for a comprehensive solution.
+
+> ⚠️ **Important Notice:** SkyNest is **only compatible with Pterodactyl**. It does not support Pelican or any other hosting panels.
 
 ![GitHub tag](https://img.shields.io/github/tag/Ctrlpanel-gg/panel)
 ![Overall Installations](https://img.shields.io/badge/Overall%20Installations-8000%2B-green)
