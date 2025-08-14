@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-md-3">
                     <a href="https://CtrlPanel.gg/docs/Contributing/donating" class="px-3 btn btn-dark btn-block"><i
-                            class="mr-2 fas fa-money-bill"></i> {{__('Support CtrlPanel')}}</a>
+                            class="mr-2 fas fa-money-bill"></i> {{__('Support SkyNest')}}</a>
                 </div>
             </div>
 

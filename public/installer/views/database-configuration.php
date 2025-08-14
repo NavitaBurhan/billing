@@ -40,7 +40,7 @@
                 <div class="flex flex-col mb-3">
                     <label for="databaseuser">Database User</label>
                     <input x-model="databaseuser" id="databaseuser" name="databaseuser" type="text" required
-                        value="ctrlpaneluser"
+                        value="skynestusr"
                         class="px-2 py-1 bg-[#1D2125] border-2 focus:border-sky-500 box-border rounded-md border-transparent outline-none">
                 </div>
             </div>
@@ -56,7 +56,7 @@
             <div class="form-group">
                 <div class="flex flex-col">
                     <label for="database">Database</label>
-                    <input x-model="database" id="database" name="database" type="text" required value="ctrlpanel"
+                    <input x-model="database" id="database" name="database" type="text" required value="skynest"
                         class="px-2 py-1 bg-[#1D2125] border-2 focus:border-sky-500 box-border rounded-md border-transparent outline-none">
                 </div>
             </div>

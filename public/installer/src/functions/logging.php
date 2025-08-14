@@ -20,7 +20,7 @@ function wh_log(string $message, string $level = 'info', array $context = []): v
     $stream = new StreamHandler(dirname(__DIR__, 4) . '/storage/logs/installer.log', Logger::DEBUG);
     $stream->setFormatter($formatter);
 
-    $log = new Logger('CtrlPanel');
+    $log = new Logger('SkyNest');
     $log->pushHandler($stream);
 
     switch (strtolower($level)) {

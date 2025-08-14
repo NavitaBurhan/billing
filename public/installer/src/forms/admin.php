@@ -91,7 +91,7 @@ if (isset($_POST['createUser'])) {
     } catch (Throwable $th) {
         wh_log($th->getMessage(), 'error');
         if (str_contains($th->getMessage(), 'Duplicate entry')) {
-            send_error_message("User already exists in CtrlPanel\'s Database");
+            send_error_message("User already exists in SkyNest\'s Database");
         } else {
             send_error_message("Something went wrong when communicating with the Database.");
         }

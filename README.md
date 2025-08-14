@@ -18,7 +18,7 @@ this need update --> <!-- [![Crowdin](https://badges.crowdin.net/controlpanelgg/
 ![License](https://img.shields.io/github/license/Ctrlpanel-gg/panel)
 ![Discord](https://img.shields.io/discord/787829714483019826)
 
-![CtrlPanel](https://user-images.githubusercontent.com/67899387/214684708-739c1d21-06e8-4dec-a4f1-81533a46cc7e.png)
+![SkyNest](https://user-images.githubusercontent.com/67899387/214684708-739c1d21-06e8-4dec-a4f1-81533a46cc7e.png)
 
 ## ⭐ Features
 
@@ -50,7 +50,7 @@ Demo Server: [demo.CtrlPanel.gg](https://demo.CtrlPanel.gg)
 docker run -d -p 8080:80 -p 8443:443 --name ctrlpanel ghcr.io/ctrlpanel-gg/panel:1.0.2
 ```
 
-CtrlPanel is now running on [0.0.0.0:8080](http://0.0.0.0:8080). Don't forget to configure the database and Pterodactyl.
+SkyNest is now running on [0.0.0.0:8080](http://0.0.0.0:8080). Don't forget to configure the database and Pterodactyl.
 
 more info: [Docker](https://github.com/Ctrlpanel-gg/panel/blob/main/.github/docker/README.md)
 
@@ -62,6 +62,14 @@ Requirements:
   - Major Linux distros such as Debian, Ubuntu, CentOS, Fedora, and ArchLinux etc.
 
 Follow the [documentation](https://ctrlpanel.gg/docs/intro) to know how to install.
+
+## 🎨 Brand Assets
+
+**Manual Asset Replacement Required**: The following brand assets need to be manually replaced:
+- `public/favicon.ico` - Replace with SkyNest favicon
+- `public/images/skynest_logo.png` - Update with proper SkyNest logo design
+
+The current assets are placeholders from the original CtrlPanel branding.
 
 ### MarketPlace
 
