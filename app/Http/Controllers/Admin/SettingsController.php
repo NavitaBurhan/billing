@@ -99,15 +99,15 @@ class SettingsController extends Controller
         $images = [
             'icon' => Storage::disk('local')->exists('public/icon.png')
                 ? asset('storage/icon.png') . '?v=' . filemtime(Storage::path('public/icon.png'))
-                : asset('images/ctrlpanel_logo.png'),
+                : asset('images/skynest_logo.png'),
 
             'logo' => Storage::disk('local')->exists('public/logo.png')
                 ? asset('storage/logo.png') . '?v=' . filemtime(Storage::path('public/logo.png'))
-                : asset('images/ctrlpanel_logo.png'),
+                : asset('images/skynest_logo.png'),
 
             'favicon' => Storage::disk('local')->exists('public/favicon.ico')
                 ? asset('storage/favicon.ico') . '?v=' . filemtime(Storage::path('public/favicon.ico'))
-                : asset('images/ctrlpanel_logo.png'),
+                : asset('images/skynest_logo.png'),
         ];
 
         return view('admin.settings.index', [
