@@ -58,7 +58,7 @@
 
         return "
         <div class='flex flex-col gap-4 sm:w-auto w-full sm:min-w-[550px] my-6'>
-            <h1 class='text-center font-bold text-3xl'>CtrlPanel.gg Installation</h1>
+            <h1 class='text-center font-bold text-3xl'>SkyNest Installation</h1>
             <div class='border-2 border-[#2E373B] bg-[#242A2E] rounded-2xl mx-2'>
                 <div class='bg-sky-600 text-xs font-medium text-sky-100 text-center p-0.5 leading-none rounded-full' style='width: {$progressValue}%'>Step {$currentStep}</div>
             </div>

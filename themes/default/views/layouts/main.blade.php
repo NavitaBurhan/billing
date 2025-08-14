@@ -166,10 +166,10 @@
         <!-- Brand Logo -->
         <a href="{{ route('home') }}" class="brand-link">
             <img width="64" height="64"
-                 src="{{ \Illuminate\Support\Facades\Storage::disk('public')->exists('icon.png') ? asset('storage/icon.png') : asset('images/ctrlpanel_logo.png') }}"
+                 src="{{ \Illuminate\Support\Facades\Storage::disk('public')->exists('icon.png') ? asset('storage/icon.png') : asset('images/skynest_logo.png') }}"
                  alt="{{ config('app.name', 'Laravel') }} Logo" class="brand-image img-circle"
                  style="opacity: .8">
-            <span class="brand-text font-weight-light">{{ config('app.name', 'CtrlPanel.gg') }}</span>
+            <span class="brand-text font-weight-light">{{ config('app.name', 'SkyNest') }}</span>
         </a>
 
         <!-- Sidebar -->
@@ -460,7 +460,7 @@
         <strong>Copyright &copy; 2021-{{ date('Y') }} <a
                     href="{{ url('/') }}">{{ config('app.name', "Ctrlpanel.gg") }}</a>.</strong>
         All rights
-        reserved. Powered by <a href="https://CtrlPanel.gg">CtrlPanel</a>.
+        reserved. Powered by SkyNest, forked from <a href="https://CtrlPanel.gg">CtrlPanel</a>.
         @if (!str_contains(config('BRANCHNAME'), 'main') && !str_contains(config('BRANCHNAME'), 'unknown'))
             Version <b>{{ config('app')['version'] }} - {{ config('BRANCHNAME') }}</b>
         @endif

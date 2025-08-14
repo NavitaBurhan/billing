@@ -13,7 +13,7 @@ if (isset($_POST['checkGeneral'])) {
     }
 
     if (!isset($parsedUrl['host'])) {
-        send_error_message("Please set an valid URL host like 'https://ctrlpanel.example.com'!");
+        send_error_message("Please set an valid URL host like 'https://skynest.example.com'!");
         exit();
     }
 

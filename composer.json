@@ -1,7 +1,7 @@
 {
     "name": "cpgg/dashboard",
     "type": "project",
-    "description": "A billing and control panel made for Pterodactyl.",
+    "description": "SkyNest – A billing and control panel made for Pterodactyl, forked from CtrlPanel.",
     "keywords": [
         "framework",
         "laravel"
@@ -69,7 +69,10 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": [
+            "app/Support/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

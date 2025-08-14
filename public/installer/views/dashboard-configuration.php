@@ -23,7 +23,7 @@
             <div class="form-group">
                 <div class="flex flex-col">
                     <label for="name">Dashboard Name</label>
-                    <input id="name" name="name" type="text" required value="CtrlPanel"
+                    <input id="name" name="name" type="text" required value="SkyNest"
                         class="px-2 py-1 bg-[#1D2125] border-2 focus:border-sky-500 box-border rounded-md border-transparent outline-none">
                 </div>
             </div>
