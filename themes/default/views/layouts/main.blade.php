@@ -14,7 +14,7 @@
     <meta content="{{ $website_settings->seo_title }}" property="og:title">
     <meta content="{{ $website_settings->seo_description }}" property="og:description">
     <meta
-            content='{{ \Illuminate\Support\Facades\Storage::disk('public')->exists('logo.png') ? asset('storage/logo.png') : asset('images/ctrlpanel_logo.png') }}'
+            content='{{ \Illuminate\Support\Facades\Storage::disk('public')->exists('logo.png') ? asset('storage/logo.png') : asset('images/skynest_logo.png') }}'
             property="og:image">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <link rel="icon"

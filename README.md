@@ -34,25 +34,20 @@ this need update --> <!-- [![Crowdin](https://badges.crowdin.net/controlpanelgg/
 - Multiple Languages Supported
 - and More!
 
-## ⛰️ Live Demo
+## ⛰️ Demo
 
-Try it!
-
-Demo Server: [demo.CtrlPanel.gg](https://demo.CtrlPanel.gg)
-
-*It is a temporary live demo; all data will be deleted.*
+This is a fork of CtrlPanel. For the original project demo, visit: [demo.CtrlPanel.gg](https://demo.CtrlPanel.gg)
 
 ## 🔧 How to Install
 
 ### 🐳 Docker
 
 ```bash
-docker run -d -p 8080:80 -p 8443:443 --name ctrlpanel ghcr.io/ctrlpanel-gg/panel:1.0.2
+# Note: This is a fork. The original Docker image is available at:
+# docker run -d -p 8080:80 -p 8443:443 --name ctrlpanel ghcr.io/ctrlpanel-gg/panel:1.0.2
 ```
 
-CtrlPanel is now running on [0.0.0.0:8080](http://0.0.0.0:8080). Don't forget to configure the database and Pterodactyl.
-
-more info: [Docker](https://github.com/Ctrlpanel-gg/panel/blob/main/.github/docker/README.md)
+More info on Docker installation: [Docker](https://github.com/Ctrlpanel-gg/panel/blob/main/.github/docker/README.md)
 
 ### 💪🏻 Non-Docker
 
